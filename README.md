@@ -40,3 +40,24 @@ El diseño de la aplicación se basará en una estructura simple:
 
 Los wireframes serán esquemas básicos que representen la disposición de los elementos en cada pantalla, priorizando la claridad y facilidad de uso sobre un diseño complejo.
 
+
+
+## Acualizacion modulo 5
+
+En este módulo se continuó el desarrollo de la aplicación Password Manager. Se realizaron mejoras en la estructura general del proyecto y se avanzó en la implementación funcional de las pantallas principales. Ademas:
+
+- Cambios previos (Módulos anteriores)
+- Creación del proyecto en Android Studio.
+- Definición de la idea general: gestor de contraseñas local.
+- Diseño de wireframes en papel y Figma.
+- Implementación inicial de la pantalla de Login.
+- Configuración del repositorio en GitHub.
+- Primera estructura básica del proyecto en Kotlin.
+
+Cambios actuales (Módulo 5)
+
+- Implementación de la pantalla principal “My Passwords”.
+- Definición del flujo de navegación después del login.
+- Organización del código en componentes más claros.
+- Preparación del almacenamiento local de datos.
+- Mejora en la estructura visual basada en los wireframes.
