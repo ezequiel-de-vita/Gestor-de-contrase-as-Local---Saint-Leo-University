@@ -62,7 +62,7 @@ Cambios actuales (Módulo 5)
 - Preparación del almacenamiento local de datos.
 - Mejora en la estructura visual basada en los wireframes.
 
-Ultimas modificaciones (modulo 8)
+## Ultimas modificaciones (modulo 8)
 
 En esta etapa se continuó con el desarrollo funcional de la aplicación y se implementaron componentes clave para el almacenamiento seguro de las contraseñas.
 
