@@ -61,3 +61,35 @@ Cambios actuales (Módulo 5)
 - Organización del código en componentes más claros.
 - Preparación del almacenamiento local de datos.
 - Mejora en la estructura visual basada en los wireframes.
+
+Ultimas modificaciones (modulo 8)
+
+En esta etapa se continuó con el desarrollo funcional de la aplicación y se implementaron componentes clave para el almacenamiento seguro de las contraseñas.
+
+Se incorporó el uso de Room como sistema de base de datos local para persistir la información dentro del dispositivo. A partir de esto se definieron las entidades y los DAO necesarios para almacenar usuarios y contraseñas.
+
+También se implementó un sistema de cifrado de contraseñas utilizando AES, de manera que las contraseñas no se almacenan en texto plano dentro de la base de datos. Antes de guardarse, las contraseñas son cifradas y luego se descifran únicamente cuando la aplicación necesita mostrarlas al usuario.
+
+Cambios realizados:
+
+- Implementación de base de datos local con Room (SQLite).
+
+- Creación de las entidades UserEntity y PasswordEntity.
+
+- Implementación de los DAO (UserDao y PasswordDao) para manejar operaciones de base de datos.
+
+- Desarrollo del sistema de cifrado y descifrado de contraseñas mediante AES.
+
+- Integración del sistema de cifrado al momento de guardar nuevas contraseñas.
+
+- Implementación de la pantalla que muestra la lista de contraseñas guardadas.
+
+- Posibilidad de agregar nuevas contraseñas indicando sitio, usuario y contraseña.
+
+- Visualización de contraseñas almacenadas con descifrado al momento de mostrarlas.
+
+- Implementación de la opción para eliminar contraseñas guardadas.
+
+- Mejora en la estructura del proyecto separando componentes de UI, base de datos y seguridad.
+
+Con estas mejoras la aplicación ya permite registrar usuarios, iniciar sesión y gestionar contraseñas almacenadas localmente de forma cifrada dentro del dispositivo.
