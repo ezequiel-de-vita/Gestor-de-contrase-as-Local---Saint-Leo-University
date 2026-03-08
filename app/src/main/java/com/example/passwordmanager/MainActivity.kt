@@ -18,7 +18,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        CryptoManager.generateKey()
 
         val db = DatabaseProvider.getDatabase(this)
         val passwordDao = db.passwordDao()
